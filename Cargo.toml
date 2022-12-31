@@ -12,3 +12,7 @@ regex = "1.7.0"
 serde = {version = "1.0.152", features = ['derive'] }
 serde_json = "1.0.91"
 reqwest = {version = "0.11.13", features = ['blocking'] }
+
+
+[dev-dependencies]
+rand = "0.8.5"
