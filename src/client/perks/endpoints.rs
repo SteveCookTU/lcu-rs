@@ -1,7 +1,7 @@
-use crate::client::{
-    LCUCredentials, Perk, PerkInventory, PerkPage, PerkStyle, CLIENT,
+use crate::client::{LCUCredentials, Perk, PerkInventory, PerkPage, PerkStyle, CLIENT};
+use crate::{
+    declare_del_endpoint, declare_get_endpoint, declare_post_endpoint, declare_put_endpoint,
 };
-use crate::{declare_del_endpoint, declare_get_endpoint, declare_post_endpoint, declare_put_endpoint};
 use reqwest::{Method, Url};
 use std::collections::HashMap;
 use std::error::Error;
